@@ -1,4 +1,4 @@
-import heroImage from "../assets/mando-transformed.png";
+import heroImage from "../assets/hero-image.png";
 import styled from "styled-components";
 
 const Img = styled.img`
@@ -23,7 +23,7 @@ const Heading = styled.h1`
 const HeroImage = () => {
 	return (
 		<>
-			<Img src={heroImage} alt="background" />
+			<Img src={heroImage} alt="hero image" />
 			<Heading>STAR WARS</Heading>
 		</>
 	);
