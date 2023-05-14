@@ -18,6 +18,11 @@ const Heading = styled.h1`
 	font-size: 7vw;
 	color: #151430;
 	font-family: "Star Jedi";
+
+	@media (max-width: 500px) {
+		font-size: 15vw;
+		transform: translate(-50%, -100%);
+	}
 `;
 
 const HeroImage = () => {
